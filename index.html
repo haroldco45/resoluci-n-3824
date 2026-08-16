@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resolución ANM 3824: Guía completa sobre trazabilidad minera en Colombia. Requisitos, proceso y registro para operaciones mineras.">
+    <meta name="theme-color" content="#1a472a">
+    <meta name="mobile-web-app-capable" content="yes">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Resolución ANM 3824 - Trazabilidad Minera Colombia">
+    <meta property="og:description" content="Guía oficial sobre la implementación de la Resolución ANM 3824 para operaciones mineras en Colombia.">
+    <meta property="og:image" content="https://vibraspositivashm.com/og-anm3824.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://vibraspositivashm.com/anm3824">
+    <meta property="og:locale" content="es_CO">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Resolución ANM 3824 - Trazabilidad Minera">
+    <meta name="twitter:description" content="Todo lo que necesitas saber sobre la implementación de la trazabilidad minera en Colombia.">
+    <meta name="twitter:image" content="https://vibraspositivashm.com/og-anm3824.png">
+    
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect fill='%231a472a' width='180' height='180'/><text x='50%' y='50%' font-size='80' font-weight='bold' fill='%23ffd700' text-anchor='middle' dominant-baseline='middle'>⛏</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect fill='%231a472a' width='180' height='180'/><text x='50%' y='50%' font-size='80' font-weight='bold' fill='%23ffd700' text-anchor='middle' dominant-baseline='middle'>⛏</text></svg>">
+    
+    <title>Resolución ANM 3824 - Trazabilidad Minera Colombia</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary: #1a472a;
+            --accent: #ffd700;
+            --success: #22c55e;
+            --warning: #f97316;
+            --danger: #dc2626;
+            --light: #f5f5f5;
+            --text: #1f2937;
+            --border: #e5e7eb;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background: var(--light);
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, #2d5a3d 100%);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        header h1 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+        
+        header p {
+            font-size: 0.95rem;
+            opacity: 0.95;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        
+        .hero {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 1.5rem 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            border-left: 5px solid var(--accent);
+        }
+        
+        .hero h2 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .hero p {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #4b5563;
+        }
+        
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            border-top: 4px solid var(--primary);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        
+        .card h3 {
+            color: var(--primary);
+            margin-bottom: 0.8rem;
+            font-size: 1.2rem;
+        }
+        
+        .card p {
+            color: #6b7280;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        
+        .card-icon {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .section {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 1.5rem 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .section h2 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            font-size: 1.6rem;
+            border-bottom: 3px solid var(--accent);
+            padding-bottom: 0.8rem;
+        }
+        
+        .section h3 {
+            color: var(--primary);
+            margin: 1.5rem 0 0.8rem 0;
+            font-size: 1.1rem;
+        }
+        
+        .section ul, .section ol {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .section li {
+            margin-bottom: 0.8rem;
+            color: #4b5563;
+        }
+        
+        .highlight {
+            background: #fef3c7;
+            border-left: 4px solid var(--accent);
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+        }
+        
+        .highlight strong {
+            color: var(--primary);
+        }
+        
+        .form-section {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 1.5rem 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .form-section h2 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            font-size: 1.6rem;
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: var(--primary);
+        }
+        
+        input, textarea, select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-family: inherit;
+            font-size: 1rem;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+        
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(26, 71, 42, 0.1);
+        }
+        
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        
+        button {
+            background: var(--primary);
+            color: white;
+            padding: 0.9rem 2rem;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+        }
+        
+        button:hover {
+            background: #143621;
+            transform: translateY(-2px);
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+        
+        .btn-secondary {
+            background: var(--accent);
+            color: var(--primary);
+            margin-left: 0.5rem;
+        }
+        
+        .btn-secondary:hover {
+            background: #ffc700;
+        }
+        
+        .message {
+            padding: 1rem;
+            border-radius: 6px;
+            margin-top: 1rem;
+            display: none;
+        }
+        
+        .message.success {
+            background: #d1fae5;
+            color: #065f46;
+            border-left: 4px solid var(--success);
+        }
+        
+        .message.error {
+            background: #fee2e2;
+            color: #7f1d1d;
+            border-left: 4px solid var(--danger);
+        }
+        
+        .timeline {
+            position: relative;
+            padding: 2rem 0;
+        }
+        
+        .timeline-item {
+            margin-bottom: 2rem;
+            padding-left: 2rem;
+            position: relative;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 12px;
+            height: 12px;
+            background: var(--primary);
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 0 0 0 3px var(--primary);
+        }
+        
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            left: 4px;
+            top: 15px;
+            width: 2px;
+            height: calc(100% + 20px);
+            background: var(--border);
+        }
+        
+        .timeline-item:last-child::after {
+            display: none;
+        }
+        
+        .timeline-item h3 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        
+        footer {
+            background: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+            font-size: 0.9rem;
+        }
+        
+        footer p {
+            margin: 0.5rem 0;
+        }
+        
+        .footer-credit {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            font-size: 0.85rem;
+            opacity: 0.9;
+        }
+        
+        .install-banner {
+            background: linear-gradient(135deg, var(--accent) 0%, #ffc700 100%);
+            color: var(--primary);
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            display: none;
+        }
+        
+        .install-banner.show {
+            display: flex;
+        }
+        
+        .install-banner button {
+            background: var(--primary);
+            color: white;
+        }
+        
+        @media (max-width: 640px) {
+            header h1 {
+                font-size: 1.3rem;
+            }
+            
+            .hero {
+                padding: 1.5rem;
+            }
+            
+            .section {
+                padding: 1.5rem;
+            }
+            
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .install-banner {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+            
+            .install-banner button {
+                width: 100%;
+                margin-left: 0;
+            }
+        }
+        
+        .status-badge {
+            display: inline-block;
+            background: var(--success);
+            color: white;
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin: 0.5rem 0;
+        }
+        
+        .toc {
+            background: #f9fafb;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            border-left: 4px solid var(--primary);
+        }
+        
+        .toc h3 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        
+        .toc ul {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .toc li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .toc a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .toc a:hover {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="install-banner" id="installBanner">
+        <div>
+            <strong>📱 Instala esta app en tu dispositivo</strong>
+            <p>Acceso rápido y sin conexión disponible</p>
+        </div>
+        <div>
+            <button onclick="installApp()">Instalar</button>
+            <button class="btn-secondary" onclick="dismissBanner()">Cancelar</button>
+        </div>
+    </div>
+    
+    <header>
+        <h1>⛏️ Resolución ANM 3824</h1>
+        <p>Trazabilidad Minera en Colombia</p>
+    </header>
+    
+    <div class="container">
+        <div class="hero">
+            <h2>El Proceso de Transición Ya Comenzó</h2>
+            <p>La Resolución ANM 3824 establece los requisitos para la trazabilidad de minerales en operaciones mineras de Colombia. Esta normativa es parte del compromiso del país con la transparencia y la formalización del sector minero.</p>
+            <span class="status-badge">✓ Vigente desde 2024</span>
+        </div>
+        
+        <div class="toc">
+            <h3>📋 Contenido</h3>
+            <ul>
+                <li><a href="#que-es">¿Qué es la Resolución ANM 3824?</a></li>
+                <li><a href="#objetivos">Objetivos y Alcance</a></li>
+                <li><a href="#requisitos">Requisitos Principales</a></li>
+                <li><a href="#proceso">Proceso de Implementación</a></li>
+                <li><a href="#registro">Registro y Cumplimiento</a></li>
+                <li><a href="#preguntas">Preguntas Frecuentes</a></li>
+            </ul>
+        </div>
+        
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-icon">📊</div>
+                <h3>Trazabilidad</h3>
+                <p>Sistema completo de seguimiento de minerales desde la operación minera hasta su comercialización.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">✅</div>
+                <h3>Cumplimiento</h3>
+                <p>Requisitos claros para empresas mineras, transportadores y comercializadores.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🔒</div>
+                <h3>Transparencia</h3>
+                <p>Información verificable sobre el origen y procedencia de los minerales extraídos.</p>
+            </div>
+        </div>
+        
+        <div class="section" id="que-es">
+            <h2>¿Qué es la Resolución ANM 3824?</h2>
+            <p>La Resolución ANM 3824 es una normativa emitida por la Autoridad Nacional de Minería (ANM) que establece los mecanismos de trazabilidad y transparencia en la cadena de comercialización de minerales en Colombia.</p>
+            
+            <h3>Propósito Principal</h3>
+            <p>Garantizar que todos los minerales extraídos de operaciones mineras formales en Colombia puedan ser identificados, rastreados y verificados a lo largo de toda su cadena de comercialización, desde la mina hasta su venta final.</p>
+            
+            <div class="highlight">
+                <strong>📌 Nota Importante:</strong> Esta resolución aplica para todas las operaciones mineras registradas ante la ANM, incluyendo minería a pequeña escala y medianos productores.
+            </div>
+        </div>
+        
+        <div class="section" id="objetivos">
+            <h2>Objetivos y Alcance</h2>
+            
+            <h3>Objetivos Principales</h3>
+            <ol>
+                <li><strong>Formalizar la minería:</strong> Incorporar operaciones mineras informales al sistema formal de registro y control.</li>
+                <li><strong>Prevenir conflicto mineral:</strong> Evitar que minerales de origen ilegal ingresen a la cadena de comercialización.</li>
+                <li><strong>Garantizar transparencia:</strong> Proporcionar información verificable sobre el origen de los minerales.</li>
+                <li><strong>Cumplir compromisos internacionales:</strong> Alinearse con estándares globales de debida diligencia.</li>
+            </ol>
+            
+            <h3>Minería Incluida</h3>
+            <ul>
+                <li>Operaciones mineras a pequeña escala (PEQ)</li>
+                <li>Operaciones de mediano productores (MP)</li>
+                <li>Operaciones de gran minería</li>
+                <li>Comercializadores de minerales</li>
+                <li>Transportadores autorizados</li>
+            </ul>
+        </div>
+        
+        <div class="section" id="requisitos">
+            <h2>Requisitos Principales</h2>
+            
+            <h3>Para Operadores Mineros</h3>
+            <ul>
+                <li>Registro ante la ANM y obtención de resolución de operación minera</li>
+                <li>Implementar sistema de identificación de minerales extraídos</li>
+                <li>Llevar registros detallados de producción y comercialización</li>
+                <li>Participar en el sistema de trazabilidad electrónica</li>
+                <li>Proporcionar información sobre precios de venta al contado</li>
+            </ul>
+            
+            <h3>Para Comercializadores</h3>
+            <ul>
+                <li>Registro en la base de datos de comercializadores autorizados</li>
+                <li>Verificación de procedencia de minerales comprados</li>
+                <li>Documentación completa de transacciones</li>
+                <li>Reporte periódico de operaciones mineras</li>
+                <li>Cumplimiento con límites de compra según normativa</li>
+            </ul>
+            
+            <h3>Sistema de Información Requerido</h3>
+            <ul>
+                <li>Base de datos de operaciones mineras autorizadas</li>
+                <li>Registro de transacciones de compra-venta</li>
+                <li>Información de productores y comercializadores</li>
+                <li>Auditoría y seguimiento de cadena de custodia</li>
+            </ul>
+        </div>
+        
+        <div class="section" id="proceso">
+            <h2>Proceso de Implementación</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Fase 1: Registro y Formalización</h3>
+                    <p>Las operaciones mineras se registran ante la ANM y obtienen su resolución de operación. Se establece identidad única de la operación.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <h3>Fase 2: Implementación de Sistemas</h3>
+                    <p>Instalación de sistemas de identificación de minerales (marquillas, etiquetado, códigos). Capacitación del personal.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <h3>Fase 3: Integración al Sistema Nacional</h3>
+                    <p>Conexión con plataforma de trazabilidad. Reporte de información de producción y comercialización.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <h3>Fase 4: Monitoreo y Control</h3>
+                    <p>La ANM realiza seguimiento y auditoría continua del sistema. Se verifica el cumplimiento normativo.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <h3>Fase 5: Certificación y Comercialización</h3>
+                    <p>Minerales certificados pueden comercializarse con documentación de trazabilidad completa.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section" id="registro">
+            <h2>Registro y Cumplimiento</h2>
+            
+            <h3>¿Cómo Registrarse?</h3>
+            <p>El proceso de registro se realiza a través del portal de la ANM (Autoridad Nacional de Minería). Los pasos básicos son:</p>
+            
+            <ol>
+                <li>Consultar si tu operación minera está registrada ante la ANM</li>
+                <li>Completar formulario de adhesión al sistema de trazabilidad</li>
+                <li>Implementar sistemas de identificación de minerales</li>
+                <li>Capacitar al personal en procedimientos de trazabilidad</li>
+                <li>Realizar transmisión de datos de forma regular</li>
+                <li>Participar en auditorías y verificaciones de control</li>
+            </ol>
+            
+            <div class="highlight">
+                <strong>⚠️ Importante:</strong> El incumplimiento de esta resolución puede resultar en multas, suspension de operaciones y sanciones administrativas.
+            </div>
+            
+            <h3>Documentación Requerida</h3>
+            <ul>
+                <li>Resolución de operación minera otorgada por la ANM</li>
+                <li>Cédula de registro de operador minero</li>
+                <li>Comprobante de implementación de sistemas de trazabilidad</li>
+                <li>Constancia de capacitación de personal</li>
+                <li>Certificado de adopción de estándares de seguridad</li>
+            </ul>
+        </div>
+        
+        <div class="section" id="preguntas">
+            <h2>Preguntas Frecuentes</h2>
+            
+            <h3>¿Qué sucede si mi operación no está registrada?</h3>
+            <p>Si tu operación minera no está registrada ante la ANM, no puedes comercializar minerales legalmente. Debe regularizarse siguiendo los procedimientos de formalización establecidos.</p>
+            
+            <h3>¿Cuál es el costo de implementar la trazabilidad?</h3>
+            <p>El costo varía según el tamaño de la operación y la tecnología implementada. La ANM ofrece orientación sobre opciones accesibles de sistemas de trazabilidad.</p>
+            
+            <h3>¿Aplica para operadores informales?</h3>
+            <p>La resolución incentiva la formalización. Los operadores informales deben regularizar su situación ante la ANM para poder comercializar legalmente con trazabilidad.</p>
+            
+            <h3>¿Qué información se reporta?</h3>
+            <p>Se reportan datos sobre volumen de producción, tipo de mineral, comercializadores, precios y destino de venta. La información es confidencial y protegida por ley.</p>
+            
+            <h3>¿Hay sanciones por incumplimiento?</h3>
+            <p>Sí. Las sanciones incluyen multas, suspensión de operaciones, cancelación de licencias y en casos graves, procesos penales.</p>
+            
+            <h3>¿Dónde puedo obtener más información?</h3>
+            <p>Contacta a la Autoridad Nacional de Minería (ANM) a través de su sitio web oficial www.anm.gov.co o llama a la línea de atención al ciudadano.</p>
+        </div>
+        
+        <div class="form-section">
+            <h2>📧 Contacto y Registro de Interés</h2>
+            <p>Completa este formulario si deseas más información sobre la implementación de la Resolución ANM 3824 en tu operación.</p>
+            
+            <form id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Nombre Completo *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="company">Empresa / Operación Minera *</label>
+                        <input type="text" id="company" name="company" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nit">NIT *</label>
+                        <input type="text" id="nit" name="nit" placeholder="Ej: 800.183.056-9" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="region">Región de Operación *</label>
+                    <select id="region" name="region" required>
+                        <option value="">Selecciona una región</option>
+                        <option value="caribe">Región Caribe</option>
+                        <option value="pacifico">Región Pacífica</option>
+                        <option value="andina">Región Andina</option>
+                        <option value="amazonia">Región Amazonía</option>
+                        <option value="orinoquia">Región Orinoquía</option>
+                        <option value="otra">Otra</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="mineral">Tipo(s) de Mineral que Produce *</label>
+                    <input type="text" id="mineral" name="mineral" placeholder="Ej: Oro, Cobre, Carbón" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="question">¿Cuál es tu pregunta o inquietud principal? *</label>
+                    <textarea id="question" name="question" required></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="privacy" required> 
+                        Acepto la política de tratamiento de datos personales
+                    </label>
+                </div>
+                
+                <button type="submit">Enviar Consulta</button>
+                <div id="formMessage" class="message"></div>
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        <p><strong>Resolución ANM 3824</strong> - Trazabilidad Minera en Colombia</p>
+        <p>Esta información es con fines educativos. Para información oficial, consulta www.anm.gov.co</p>
+        <p>Última actualización: Agosto 2026</p>
+        <div class="footer-credit">
+            Desarrollada por Vibras Positivas HM — Derechos de Autor Reservados
+        </div>
+    </footer>
+    
+    <script>
+        // Service Worker Registration
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js').catch(err => {
+                console.log('Service Worker registration failed:', err);
+            });
+        }
+        
+        // Install App Banner
+        let deferredPrompt;
+        const installBanner = document.getElementById('installBanner');
+        
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            installBanner.classList.add('show');
+        });
+        
+        window.addEventListener('appinstalled', () => {
+            console.log('PWA was installed');
+            installBanner.classList.remove('show');
+        });
+        
+        function installApp() {
+            if (deferredPrompt) {
+                deferredPrompt.prompt();
+                deferredPrompt.userChoice.then((choiceResult) => {
+                    if (choiceResult.outcome === 'accepted') {
+                        console.log('User accepted the install prompt');
+                    } else {
+                        console.log('User dismissed the install prompt');
+                    }
+                    deferredPrompt = null;
+                    installBanner.classList.remove('show');
+                });
+            }
+        }
+        
+        function dismissBanner() {
+            installBanner.classList.remove('show');
+        }
+        
+        // Form Handler
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formMessage = document.getElementById('formMessage');
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                company: document.getElementById('company').value,
+                nit: document.getElementById('nit').value,
+                region: document.getElementById('region').value,
+                mineral: document.getElementById('mineral').value,
+                question: document.getElementById('question').value,
+                timestamp: new Date().toLocaleString('es-CO', {timeZone: 'America/Bogota'})
+            };
+            
+            // Simulate form submission
+            try {
+                localStorage.setItem('anm3824_form_' + Date.now(), JSON.stringify(formData));
+                
+                formMessage.className = 'message success';
+                formMessage.textContent = '✅ Gracias por tu consulta. Nos pondremos en contacto pronto.';
+                formMessage.style.display = 'block';
+                
+                this.reset();
+                
+                setTimeout(() => {
+                    formMessage.style.display = 'none';
+                }, 5000);
+            } catch (error) {
+                formMessage.className = 'message error';
+                formMessage.textContent = '❌ Error al enviar. Intenta nuevamente.';
+                formMessage.style.display = 'block';
+            }
+        });
+        
+        // Smooth scroll for TOC
+        document.querySelectorAll('.toc a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                const target = document.querySelector(href);
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
