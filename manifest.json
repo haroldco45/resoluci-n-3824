@@ -1,1 +1,77 @@
+{
+  "name": "Resolución ANM 3824 - Trazabilidad Minera Colombia",
+  "short_name": "ANM 3824",
+  "description": "Guía completa sobre la implementación de la Resolución ANM 3824 para trazabilidad de minerales en operaciones mineras de Colombia",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a472a",
+  "orientation": "portrait-primary",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%231a472a' width='192' height='192'/><text x='50%' y='50%' font-size='100' font-weight='bold' fill='%23ffd700' text-anchor='middle' dominant-baseline='middle'>⛏</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%231a472a' width='512' height='512'/><text x='50%' y='50%' font-size='280' font-weight='bold' fill='%23ffd700' text-anchor='middle' dominant-baseline='middle'>⛏</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%231a472a' width='540' height='720'/><text x='270' y='100' font-size='48' font-weight='bold' fill='%23ffd700' text-anchor='middle'>⛏ ANM 3824</text><text x='270' y='200' font-size='24' fill='white' text-anchor='middle'>Trazabilidad Minera</text><text x='270' y='350' font-size='18' fill='white' text-anchor='middle' width='400'>Información completa sobre</text><text x='270' y='380' font-size='18' fill='white' text-anchor='middle'>la implementación de la</text><text x='270' y='410' font-size='18' fill='white' text-anchor='middle'>Resolución ANM 3824</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Ver Requisitos",
+      "short_name": "Requisitos",
+      "description": "Requisitos principales de la Resolución ANM 3824",
+      "url": "./index.html#requisitos",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%231a472a' width='96' height='96'/><text x='48' y='48' font-size='50' text-anchor='middle' dominant-baseline='middle'>✓</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Proceso de Implementación",
+      "short_name": "Proceso",
+      "description": "Fases del proceso de implementación",
+      "url": "./index.html#proceso",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%231a472a' width='96' height='96'/><text x='48' y='48' font-size='50' text-anchor='middle' dominant-baseline='middle'>📊</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Preguntas Frecuentes",
+      "short_name": "FAQ",
+      "description": "Preguntas frecuentes sobre ANM 3824",
+      "url": "./index.html#preguntas",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%231a472a' width='96' height='96'/><text x='48' y='48' font-size='50' text-anchor='middle' dominant-baseline='middle'>❓</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
+}
 
